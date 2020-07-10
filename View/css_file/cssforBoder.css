@@ -1,0 +1,155 @@
+.background-boder{
+    background-color: #f7f7f7;
+}
+
+.boder{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+   
+    padding-bottom: 50px;
+}
+
+
+.left-ctn{
+    width: 20%;
+    background-color: white;
+}
+.left-ctn > div {
+    margin: 20px;
+}
+
+.mid-left{
+    padding-bottom: 2px;
+}
+
+.mid-left>div{
+    padding: 10px 0;
+}
+
+.Top-left-ctn > div{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.Top-left-ctn > div:hover{
+    background-color: #eaeaea;
+}
+
+.right-ctn{
+    width: 80%;
+    background-color: white;
+}
+
+.right-ctn>div{
+    margin: 20px 0;
+}
+
+.Big-img > img, .smal-img>div>img{
+    width: 100%;
+    height: auto;
+}
+
+.smal-img{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.tabcontent {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.tabcontent >div > a, a:active, a:hover {
+    text-decoration: none;
+    color: black;
+    border:none;
+}
+
+
+.tabcontent > div{
+    padding: 10%;
+}
+
+.tabcontent > div:hover{
+    box-shadow: 0px 0px 15px gray;
+    z-index: 1;
+}
+
+div.card {
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.card-img-top{
+    width:100%;
+}
+
+div .card-title{
+    height: 50px;
+    width: 100%;
+    
+}
+
+
+span.sale-percent{
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+span.ori-price {
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 13px;
+
+}
+
+div .card-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+div.star i{
+    color: yellow;
+    letter-spacing: -2px;
+    font-size: 18px;
+}
+
+.text-right{
+    margin: 20px;
+}
+
+.text-right a>button, .currenBtn{
+    margin: 5px;
+    border-radius: 100px;
+    border: none;
+    padding: 3px 10px;
+}
+
+.text-right a>button{
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+.currenBtn{
+    background-color: #189eff;
+    color: white;
+    border: none;
+}
+
+.currenBtn1{
+    background-color: white;
+    font-weight: initial;
+    border: none;
+}
+
+.currenBtn1:hover{
+    background-color: #c1e7ff;
+}

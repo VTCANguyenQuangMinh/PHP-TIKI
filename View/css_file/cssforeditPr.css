@@ -1,0 +1,86 @@
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px;
+}
+
+a, a:active, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.tabcontent > div{
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.tabcontent > div:hover{
+    box-shadow: 0px 0px 15px gray;
+    z-index: 1;
+}
+
+div.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    position: relative;
+}
+
+div.card>div{
+    margin: 10px;
+}
+
+.img-product{
+    width: 20%
+}
+
+.card-body{
+    width: 55%
+}
+
+.infor{
+    width: 25%;
+}
+
+.infor>div{
+    margin: 5px 0;
+}
+
+.card-img-top{
+    width:100%;
+    height: auto;
+}
+
+div .card-title{
+    height: 70px;
+    width: 100%;
+    
+}
+
+
+span.sale-percent{
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+span.ori-price {
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 15px;
+
+}
+
+div .card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+div.star i{
+    color: yellow;
+    letter-spacing: -2px;
+    font-size: 18px;
+}

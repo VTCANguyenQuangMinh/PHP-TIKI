@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+    /* Header */
+    div.header-forMobile {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > div.header1 {
+        display: flex;
+        background-color: #1d71ab;
+        justify-content: flex-end;
+        padding-right: 70px;
+    }
+    div.header1 > a {
+        color: white;
+        text-decoration: none;
+        margin: 3px;
+        margin-left: 20px;
+    }
+    div.header1 > a i {
+        color: #fdd835;
+    }
+    
+    header > div.header2 {
+        display: flex;
+        height: 60px;
+        background-color: #189eff;
+        justify-content: center;
+        padding-top: 17px;
+    }
+    header > div.header2 div {
+        margin: 0 10px;
+    }
+    div.find{
+        display: flex;
+    }
+    div.find > input[type=text] {
+        height: 35px;
+        width: 375px;
+        padding: 0 10px;
+        border: none;
+        border-radius: 4px 0px 0px 4px;
+        font-size: 12px;
+    }
+    div.find > button {
+        height: 35px;
+        width: 100px;
+        padding: 0 10px;
+        outline: none;
+        color: rgb(74, 74, 74);
+        border-radius: 0px 4px 4px 0px;
+        border: none;
+        background-color: #edeef2;
+    }
+    
+    div.UserStyle {
+        float: right;
+        
+    }
+    
+    div.UserStyle a, div.UserStyle button {
+        text-decoration: none;
+        color: white;
+        vertical-align: top;
+        font-weight: 400px;
+        display: inline-block;
+        position: relative;
+        margin: 0 10px;
+        background-color: #189eff;
+        border: none;
+
+    }
+    div.UserStyle a i, div.UserStyle button i{
+        font-size: 25px;
+        position: absolute;
+        float: left;
+        left: 0;
+        top: 10px;
+    }
+    div.UserStyle a span, div.UserStyle button span{
+        padding-left: 35px;
+    }
+    div.UserStyle a.cart {
+        border: medium solid white;
+        border-radius: 5px;
+        padding: 7px 0;
+    }
+    div.UserStyle a.cart span.cart-count {
+        background-color: #fdd835;
+        padding: 3px;
+        color: black;
+        border-radius: 5px;
+        margin-left: 3px;
+    }
+    div.UserStyle a.cart i {
+        font-size: 20px;
+        left: 8px;
+    }
+    div.UserStyle a.cart span{
+        padding-left: 30px;
+    }
+    
+    div.header3 {
+        height: 50px;
+        background-color: #189eff;
+        color: white;
+        display: flex;
+        padding: 12px 0px 0px 55px;
+    }
+
+    .header3 > div {
+        margin-right: 25px;
+    }
+
+    i.check-map {
+        padding: 15px 10px;
+        background-image: url("https://pngimage.net/wp-content/uploads/2018/05/check-in-map-icon-png-5.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    i.Tiki-now {
+        padding: 20px 35px;
+        background-image: url("https://salt.tikicdn.com/ts/banner/33/ba/89/54c02d2475983f93a024c0cd13f238e4.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    i.thuongHieu{
+        padding: 15px 15px;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAvFP3mVlI2iwcmeyZ78xhs_72ry0s29Ucrr8jO4GWzWXmi_HC7g");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+    }
+
+    i.doiTra{
+        padding: 15px 15px;
+        background-image: url("https://salt.tikicdn.com/assets/cms/doi-tra-de-dang/img/step-1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+    }
+    div.header3 div {
+        font-weight: 400;
+        font-size: 16px;
+        position: relative;
+    }
+    
+    div.header3 div i{
+        position: absolute;
+        font-size: 25px;
+    }
+    div.header3 div span{
+        padding-left: 30px;
+    }
+

@@ -1,0 +1,111 @@
+.ft-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.early-ft {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: #f7f7f7;
+}
+
+.new-letter-title {
+    position: relative;
+    float: left;
+    margin-left: 70px;
+}
+
+.icon-newsletter {
+    position: absolute;
+    padding: 50px;
+    background-image: url("https://image.flaticon.com/icons/svg/321/321817.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.icon-newsletter div {
+    margin-left: 500px;
+}
+
+.Group-inputEmail {
+    margin: 50px 0 0 50px;
+}
+
+.main-ft-container {
+    max-width: 90%;
+    margin: auto;
+    font-weight: 650;
+    display: flex;
+}
+
+.main-ft-content {
+    margin: 40px 20px;
+}
+
+.main-ft-content p {
+    font-size: 12px;
+}
+
+span.redColor-text {
+    color: red;
+    font-size: 12px;
+}
+
+i.logo {
+    margin: 10px;
+    padding: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-facebook {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIPHRriXgYOk2ERnTBjlMV3ycy8I-w7TgAe9UcOdLJGV7V8qQo");  
+}
+
+.logo-youtube {
+    background-image: url("https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png")
+}
+
+.logo-zalo {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d6/Logo_Zalo.png")
+}
+
+i.logo-AppStore {
+    padding: 20px 80px;
+    background-image: url("https://banner2.kisspng.com/20180719/evg/kisspng-app-store-apple-download-logo-app-store-5b500d988880b2.3327280815319730165591.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+i.logo-GooglePlay {
+    padding: 20px 80px;
+    background-image: url("https://my.smash.id/images/playstore.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.address-ft {
+    display: flex;
+    justify-content: center;
+}
+
+.left-address {
+    position: relative;
+    margin-left: 100px;
+}
+
+.right-address {
+    position: relative;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.check-map-ft {
+    position: absolute;
+    padding: 35px 35px;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/map/500/right-512.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
